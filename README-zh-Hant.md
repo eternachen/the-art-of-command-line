@@ -1,5 +1,5 @@
 🌍
-*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
+*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [polski](README-pl.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
 
 # 命令列的藝術
 
@@ -152,7 +152,7 @@
 
 - 部分其他的關於 ssh 的選項是安全敏感且應當小心啟用的。例如在可信任的網路中：`StrictHostKeyChecking=no`，`ForwardAgent=yes`
 
-- 考慮使用[`mosh`](https://mosh.mit.edu/) 作為 ssh 的替代品，它使用 UDP 協議。
+- 考慮使用[`mosh`](https://mosh.org/) 作為 ssh 的替代品，它使用 UDP 協議。
 
 - 獲取檔案的八進位制格式許可權，使用類似如下的程式碼：
 ```sh

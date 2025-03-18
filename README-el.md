@@ -1,5 +1,5 @@
 🌍
-*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
+*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [polski](README-pl.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
 
 # Η Τέχνη της Γραμμής Εντολών
 +[![Ρωτήστε μία ερώτηση](https://img.shields.io/badge/%3f-Ask%20a%20Question-ff69b4.svg)](https://airtable.com/shrzMhx00YiIVAWJg)
@@ -175,7 +175,7 @@
 
 - Μερικές άλλες επιλογές σχετικές με την ssh είναι ευαίσθητες όσον αφορά την ασφάλεια και θα πρέπει να ενεργοποιούνται με προσοχή, π.χ. ανά υποδίκτυο ή host ή σε έμπιστα δίκτυα: `StrictHostKeyChecking=no`, `ForwardAgent=yes`
 
-- ´Εχετε υπόψη σας την εντολή [`mosh`](https://mosh.mit.edu/) ως μία εναλλακτική της ssh που χρησιμοποιεί UDP, αποφεύγοντας τις συνδέσεις που διακόπτονται και διευκολύνοντας τη διαδικασία (απαιτεί ρύθμιση στον server).
+- ´Εχετε υπόψη σας την εντολή [`mosh`](https://mosh.org/) ως μία εναλλακτική της ssh που χρησιμοποιεί UDP, αποφεύγοντας τις συνδέσεις που διακόπτονται και διευκολύνοντας τη διαδικασία (απαιτεί ρύθμιση στον server).
 
 - Για να πάρετε τα δικαιώματα ενός αρχείου σε οκταδική μορφή, πράγμα που είναι χρήσιμο για την παραμετροποίηση του συστήματος, αλλά δεν είναι διαθέσιμο με την `ls` και είναι εύκολο να γίνει άτσαλα, χρησιμοποιήστε κάτι όπως
 ```sh

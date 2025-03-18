@@ -1,5 +1,5 @@
 🌍
-*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
+*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [polski](README-pl.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
 
 
 # Umetnost ukazne vrstice
@@ -185,7 +185,7 @@ EOF
 
 - Nekaj ostalih opcij relevantnih za ssh je varnostno občutljivih in bi morale biti omogočene s pazljivostjo, npr. na podomrežju ali gostitelju ali v zaupljivih omrežjih: `StrictHostKeyChecking=no`, `ForwardAgent=yes`
 
-- Premislite o [`mosh`](https://mosh.mit.edu/) kot alternativi za ssh, ki uporablja UDP, da se izognete padlim povezavam in dodate priročnost, ko ste na poti (zahteva nastavitev strežniške strani).
+- Premislite o [`mosh`](https://mosh.org/) kot alternativi za ssh, ki uporablja UDP, da se izognete padlim povezavam in dodate priročnost, ko ste na poti (zahteva nastavitev strežniške strani).
 
 - Da dobite pravice na datoteki v osmiškem zapisu, ki je uporaben za nastavitve sistema vendar ni na voljo pri `ls` in enostaven za mešanje, uporabite nekaj takega kot je
 ```sh

@@ -1,5 +1,5 @@
 🌍
-*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
+*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [polski](README-pl.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
 
 # The Art of Command Line
 
@@ -182,7 +182,7 @@ EOF
 
 - これ以外のSSHオプションはセキュリティ上の問題がある可能性があるため、有効にするには、サブネットごとやホストごとに指定したり、信頼できるネットワーク内でのみ使用するなど注意が必要。`StrictHostKeyChecking=no`、`ForwardAgent=yes`など。
 
-- [`mosh`](https://mosh.mit.edu/)はUDPを使ったsshの代替で、(サーバー側での設定は必要であるが) 断続的な接続時に便利。
+- [`mosh`](https://mosh.org/)はUDPを使ったsshの代替で、(サーバー側での設定は必要であるが) 断続的な接続時に便利。
 
 - 8進数表現のファイルパーミッションは、システム設定の際に便利だが`ls`の結果にも出てこず、間違いやすい。以下のようにして取得できる。
 
